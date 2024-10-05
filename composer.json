@@ -1,0 +1,37 @@
+{
+    "name": "npowest/php_mts_business_api",
+    "description": "МТС Бизнес API",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Virus3D",
+            "email": "viisto@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.42",
+        "nunomaduro/phpinsights": "^2.11",
+        "phpmd/phpmd": "^2.15",
+        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan-strict-rules": "^1.5",
+        "squizlabs/php_codesniffer": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Npowest\\MTSBusinessApi\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "ergebnis/composer-normalize": true
+        },
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}
